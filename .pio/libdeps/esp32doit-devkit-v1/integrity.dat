@@ -1,0 +1,13 @@
+https://github.com/plerup/espsoftwareserial.git
+https://github.com/Erriez/ErriezMHZ19B.git
+bblanchon/ArduinoJson@^6.17.2
+marian-craciunescu/ESP32Ping@^1.7
+https://github.com/mikalhart/TinyGPSPlus
+https://github.com/avaldebe/PMserial
+arduino-libraries/NTPClient@^3.2.1
+adafruit/Adafruit BusIO@^1.13.2
+knolleary/PubSubClient@^2.8
+sensirion/arduino-sht@^1.2.2
+jdollar/SoftwareSerialEsp32@0.0.0-alpha+sha.6d373ecd5f
+adafruit/RTClib@^2.1.1
+finitespace/BME280@^3.0.0
