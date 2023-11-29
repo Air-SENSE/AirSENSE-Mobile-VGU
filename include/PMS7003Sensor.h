@@ -66,6 +66,7 @@ ERROR_CODE pms_init()
 
 ERROR_CODE pms_getdata(uint32_t &_pm_1_0, uint32_t &_pm_2_5, uint32_t &_pm_10_0)
 {
+    pmsSensor.read();
     if (pmsSensor)
     {
         // ESP_LOGI("\nSensor Version: %d.\n", pmsSensor.getHWVersion());

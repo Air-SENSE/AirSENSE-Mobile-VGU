@@ -20,17 +20,18 @@
 #define ERROR_BME_INIT_FAILED       0xd0
 #define ERROR_BME_DET_DATA_FAILED   0xd1
 
-BME280I2C::Settings settings(
-   BME280::OSR_X1,
-   BME280::OSR_X1,
-   BME280::OSR_X1,
-   BME280::Mode_Sleep,
-   BME280::StandbyTime_1000ms,
-   BME280::Filter_2,
-   BME280::SpiEnable_False,
-   BME280I2C::I2CAddr_0x76 // I2C address. I2C specific.
-);
-BME280I2C bmeSensor(settings);
+// BME280I2C::Settings settings(
+//    BME280::OSR_X1,
+//    BME280::OSR_X1,
+//    BME280::OSR_X1,
+//    BME280::Mode_Sleep,
+//    BME280::StandbyTime_1000ms,
+//    BME280::Filter_2,
+//    BME280::SpiEnable_False,
+//    BME280I2C::I2CAddr_0x76 // I2C address. I2C specific.
+// );
+
+BME280I2C bmeSensor;
 
 /**
  * @brief Initialize BME280 Sensor
